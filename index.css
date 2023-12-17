@@ -1,0 +1,73 @@
+.header h1 {
+ font-size: 80px;
+color:#333333;
+text-align: center;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.side .color-selector{
+  width: 80px;
+  height:80px;
+  background-color: black;
+  border: 2px solid;
+  border-radius:100px;
+  margin:10px 5px;
+  margin: 0;
+  padding: 5px;
+}
+.color-selector:hover{
+  width: 82px;
+  height:82px;
+  background-color: black;
+  border: 2px solid;
+  border-radius:100px;
+  margin: 0;
+  padding: 5px;
+}
+.side{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height:450px;
+  gap: 10px;
+  align-items: center;
+  border: 2px solid;
+}
+.box-container{
+  width: 100px;
+  height: 110px;
+  margin-top: 10px;
+}
+.selector-button{
+  width: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:20px;
+}
+.selector-button:hover{
+  width: 245px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size:20px;
+ 
+}
+.range-selector{
+  width: 160px;
+  color: #333333;
+}
+.text-value{
+  color: #333333;
+  margin-bottom: 1px;
+}
+.second-side{
+  margin-top: 40px;
+  width: 700px;
+  height: 450px;
+  border: 2px solid;
+}
+.second-side{
+  margin-top: 0;
+  margin-right: 45px;
+}
