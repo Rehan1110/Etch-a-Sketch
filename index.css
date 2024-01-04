@@ -62,6 +62,7 @@ text-align: center;
   margin-bottom: 1px;
 }
 .second-side{
+  display: grid;
   margin-top: 40px;
   width: 700px;
   height: 450px;
@@ -70,4 +71,7 @@ text-align: center;
 .second-side{
   margin-top: 0;
   margin-right: 45px;
+}
+.box{
+  background-color:red;
 }
