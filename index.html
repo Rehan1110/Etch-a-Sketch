@@ -17,15 +17,15 @@
   </header>
   <main class="main">
   <div class="side">
-    <div class="box-container">
-    <div class="color-selector"></div>
-    </div>
-  <button class="selector-button">Color Mode</button>
-  <button class="selector-button">Rainbow Mode</button>
-  <button class="selector-button">Eraser</button>
-  <button class="selector-button">Clear</button>
-  <p class="text-value"><span class="first-value">10</span> X <span class="second-value">12</span></p>
-  <input type="range" class="range-selector" min="1" max="64"/>
+    <main class="box-container">
+    <main class="color-selector"></main>
+    </main>
+  <button class="selector-button" onclick="setColor('black')">Black</button>
+  <button class="selector-button" onclick="setColor('rgb')">Rainbow Mode</button>
+  <button class="selector-button" onclick="setColor('white')">Eraser</button>
+  <button class="selector-button" onclick="ResetColor()">Clear</button>
+  <p class="text-value"><span class="first-value">16</span> X <span class="second-value">16</span></p>
+  <input type="range" class="range-selector" min="1" max="100" />
   </div>
   <div class="second-side">
 
